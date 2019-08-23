@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.jpeg",
+				"*.jpg",
+				"*.aux",
+				"*.out",
+				"*.pdf",
+				"*.gz"
+			],
+			"folder_exclude_patterns":
+			[
+				".git"
+			],
+			"name": "Travel Soccer",
+			"path": "."
+		}
+	]
+}

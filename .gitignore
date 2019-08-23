@@ -1,0 +1,6 @@
+# Ignore Latex Build Files
+*.aux
+*.log
+
+# Ignore Sublime workspace changes.
+*.sublime-workspace
