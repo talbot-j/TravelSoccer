@@ -1,0 +1,138 @@
+\PassOptionsToPackage{svgnames}{xcolor}
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=.25in, bottom=.5in, left=.5in, right=.5in]{geometry}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+\tcbuselibrary{skins,breakable}
+\usetikzlibrary{shadings,shadows}
+
+\usepackage{graphicx} % Allows to include images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+\usepackage{multicol}
+\usepackage{float}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\title{Practice 1: The Introduction}
+\author{}
+\date{}
+
+\newenvironment{agendablock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightGray,colframe=DarkGray,%
+    colbacklower=Gray!75!LightGray,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{evenBlock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightGreen,colframe=DarkGreen,%
+    colbacklower=LimeGreen!75!LightGreen,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{oddBlock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightBlue,colframe=DarkBlue,%
+    colbacklower=DarkBlue!75!LightBlue,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{myexampleblock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightGreen,colframe=DarkGreen,%
+    colbacklower=LimeGreen!75!LightGreen,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{myalertblock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightCoral,colframe=DarkRed,%
+    colbacklower=Tomato!75!LightCoral,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{myblock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightBlue,colframe=DarkBlue,%
+    colbacklower=DarkBlue!75!LightBlue,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\usepackage{lmodern}
+
+\begin{document}
+\fontfamily{lmss}\selectfont
+\maketitle
+
+\begin{agendablock}{Practice Activities}
+    Passing is key - soccer is a game of possession and keep away above all else.  Rapid accurate passing will tire other team forcing mistakes by them.  We must be accurate and perfect passers above all else. 
+    \begin{enumerate}
+        \item Warm ups / Coerver Touches [ 15 min ]
+        \item Drills [ 50 min ]
+        \item Recap positioning tactics from P1 [ 5 min ]
+        \item Small Sided Game (Keep Away maybe) [ 15 min ]
+        \item Sprints [ 5 min ] 
+    \end{enumerate}
+\end{agendablock}
+
+\section{Warm Up}
+
+\begin{myalertblock}{Warm ups / Coerver Touches (15 min) }
+    Warm ups
+    \begin{enumerate}
+        \item Jog to the 18 yard line and back twice with your ball (inside cut first time, outside cut the second),
+        \item Side-Step to 18 yd line and back twice,
+        \item Butt Kickers to the 18 yd line and back twice,
+        \item Jog Backwards to the 18 yd line and back twice.
+    \end{enumerate}
+    Touches
+    \begin{enumerate}
+        \item Toe-Touches (20 count alternating feet).
+        \item Pull back and Push Forward (10 each foot).
+        \item Side to Side or Pendulums( 20 count ).
+        \item Triangles (10 each foot).
+        \item Pullback-Behind (20 count).
+    \end{enumerate}
+\end{myalertblock}
+
+\section{Drills}
+\begin{evenBlock}{Lane passing (10 min) }
+Simple passing up and down a lane (back and forth) about 3-5 yards away.
+Could modify this to pass between two boxes 1 yard.
+\end{evenBlock}
+
+\begin{oddBlock}{4 Corner 'Triangle' passing formations (4 per square no movement) ( 10 min )}
+This is like a 3 man passing drill around a box, but with a man at each corner to remove the movement element and focus on the proper technique.
+\end{oddBlock}
+
+\begin{evenBlock}{Figure 8 Passing (10 min) }
+2 boys per box, dribble around right side cone, then pass.  Other player repeats same as first player returns to center to receive the pass.  Then player runs around to the left cone and passes, other player does the same.  This repeats.
+\end{evenBlock}
+
+\begin{oddBlock}{3 Corner 'Triangle' passing formations (4 per square no movement) - 10 min}
+This drill integrates movement and positioning with a pass.
+\end{oddBlock}
+
+\section{Game}
+
+\begin{evenBlock}{Recap Positioning from P1}
+\end{evenBlock}
+
+\begin{oddBlock}{Small Sided Game}
+\end{oddBlock}
+
+\section{Close}
+\begin{oddBlock}{Sprints}
+    Agility runs to cone 5 yards away, stop and step circling cone then explode to next cone, circling it then explode sprinting to half field, jog back to end line and repeat 3 times.
+\end{oddBlock}
+
+\end{document}
