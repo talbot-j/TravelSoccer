@@ -1,0 +1,115 @@
+\PassOptionsToPackage{svgnames}{xcolor}
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=.25in, bottom=.5in, left=.5in, right=.5in]{geometry}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+\tcbuselibrary{skins,breakable}
+\usetikzlibrary{shadings,shadows}
+
+\usepackage{graphicx} % Allows to include images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+\usepackage{multicol}
+\usepackage{float}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\title{Drills}
+\author{}
+\date{}
+
+\newenvironment{agendablock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightGray,colframe=DarkGray,%
+    colbacklower=Gray!75!LightGray,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{evenBlock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightGreen,colframe=DarkGreen,%
+    colbacklower=LimeGreen!75!LightGreen,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{oddBlock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightBlue,colframe=DarkBlue,%
+    colbacklower=DarkBlue!75!LightBlue,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{myexampleblock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightGreen,colframe=DarkGreen,%
+    colbacklower=LimeGreen!75!LightGreen,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{myalertblock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightCoral,colframe=DarkRed,%
+    colbacklower=Tomato!75!LightCoral,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{myblock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightBlue,colframe=DarkBlue,%
+    colbacklower=DarkBlue!75!LightBlue,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\usepackage{lmodern}
+
+\begin{document}
+\fontfamily{lmss}\selectfont
+\maketitle
+
+\section{Warm Up Drills}
+
+\section{Passing Drills}
+
+\input{../Drills/Drill_Lane_Passing}
+
+\input{../Drills/Drill_Box_Passes}
+
+\input{../Drills/Drill_Gate_Passing}
+
+\input{../Drills/Drill_4_Corner_Passing}
+
+\input{../Drills/Drill_Triangle_Passing}
+
+\input{../Drills/Drill_Figure8_Passing}
+
+\input{../Drills/Drill_Clocks}
+
+
+\section{Dribbling}
+\input{../Drills/Drill_Cone_Weave}
+
+\input{../Drills/Drill_Gate_Dribbling}
+
+\section{Defense}
+\input{../Drills/Drill_Secure_The_Box}
+
+\input{../Drills/Drill_Foot_Soldiers}
+
+\section{Game Situational}
+\input{../Drills/Drill_Dribble_Endline_Cross}
+
+\input{../Drills/Drill_2V1_Offense}
+
+\input{../Drills/Drill_3+Help_vs_4}
+
+\section{Other}
+\input{../Drills/Drill_DoubleAttackers}
+
+\end{document}
