@@ -1,0 +1,203 @@
+\PassOptionsToPackage{svgnames}{xcolor}
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=.5in, bottom=.75in, left=.5in, right=.5in]{geometry}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+\tcbuselibrary{skins,breakable}
+\usetikzlibrary{shadings,shadows}
+
+\usepackage{graphicx} % Allows to include images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+\usepackage{multicol}
+\usepackage{float}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\title{\vspace{-.5in}Practice 3: Master Dribbling}
+\author{\vspace{-.5in}}
+\date{\vspace{-.5in}}
+
+\newenvironment{agendablock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightGray,colframe=Black,%
+    colbacklower=Gray!75!LightGray,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{evenBlock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightGreen,colframe=DarkGreen,%
+    colbacklower=LimeGreen!75!LightGreen,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{oddBlock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightBlue,colframe=DarkBlue,%
+    colbacklower=DarkBlue!75!LightBlue,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{myexampleblock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightGreen,colframe=DarkGreen,%
+    colbacklower=LimeGreen!75!LightGreen,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{myalertblock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightCoral,colframe=DarkRed,%
+    colbacklower=Tomato!75!LightCoral,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\newenvironment{myblock}[1]{%
+    \tcolorbox[beamer,%
+    noparskip,breakable,
+    colback=LightBlue,colframe=DarkBlue,%
+    colbacklower=DarkBlue!75!LightBlue,%
+    title=#1]}%
+    {\endtcolorbox}
+
+\begin{document}
+
+\fontfamily{lmss}\selectfont
+
+\maketitle
+
+\begin{agendablock}{Practice Activities}
+    Dribbling and Ball Control at your feet is another key skill.  The ability to dribble well allows you to find open space to pass or shoot. 
+    \begin{enumerate}
+        \item Warm ups / Coerver Touches, HowTo [ 20 min ]
+        \item Drills [ 30 min ]
+        \item Game Situational Drills [ 15 min ]
+        \item Small Sided Game [ 20 min ]
+        \item Sprints [ 5 min ]
+    \end{enumerate}
+\end{agendablock}
+
+\section{Warm Ups}
+Run the \textbf{GATE DRIBBLING} drill until everyone arrives and for a few minutes after.
+
+\textbf{Time: 2 minutes}
+\begin{oddBlock}{Gate Dribbling}
+Setup 2-4 square areas about 6x6 yards.  Then add one of each colored gate to the squares (ideally 4 gates per square each a different color).  The cones for each gate should be about a yard apart.  The goal is to have the players dribble through the each colored gate in each zone once.  First one to complete all gate in each zone wins.
+\end{oddBlock}
+
+\textbf{Time: 3 minutes}
+\begin{myalertblock}{Theme of the Practice}
+    \textbf{Perfect Dribbling!}
+
+    Importance of Dribbling:
+    \begin{itemize}
+        \setlength{\itemsep}{0pt}
+        \setlength{\parskip}{0pt}
+        \setlength{\parsep}{0pt}
+        \item Dribbling sets up everything.
+        \item Creates space to pass.
+        \item Creates space to shoot.
+        \item No offsides.
+        \item Can attract or freeze defenders to allow yuor teammates to find open space.
+    \end{itemize}
+
+    Issues with Dribbling:
+    \begin{itemize}
+        \setlength{\itemsep}{0pt}
+        \setlength{\parskip}{0pt}
+        \setlength{\parsep}{0pt}
+        \item Dribbling moves the ball slower than passing or running.
+        \item Attracts defenders (can be a positive - see above).
+    \end{itemize}
+
+\end{myalertblock}
+
+\textbf{Time: 10 minutes}
+\input{../Warmups}
+
+\section{HOWTO:}
+\input{../Drills/HOWTO_Dribble}
+
+\section{Drills}
+
+\textbf{Time: 10 minutes}
+\input{../Drills/Drill_Cone_Weave}
+
+\textbf{Time: 10 minutes}
+\begin{oddBlock}{Straight line dribbling at speed ( 10 min )}
+    \textbf{Drill:}
+    \begin{enumerate}
+        \setlength{\itemsep}{0pt}
+        \setlength{\parskip}{0pt}
+        \setlength{\parsep}{0pt}
+        \item Use the outside of the foot or laces to push the ball forward 2-3 steps in front of you.
+        \item Continue until half field then make a turn inside cut and back to the end line.
+    \end{enumerate}
+    \textbf{Coaching Points:}
+    \begin{enumerate}
+        \setlength{\itemsep}{0pt}
+        \setlength{\parskip}{0pt}
+        \setlength{\parsep}{0pt}
+        \item Go slow until and get used to the feel of dribbling this way.
+        \item Increase speed as it begins to feel more natural.
+        \item Focus on your touch and timing as you approach the lines and try to make that cut right on the line.
+        \item Can you beat coach?
+    \end{enumerate}
+\end{oddBlock}
+
+\textbf{Time: 10 minutes}
+\input{../Drills/Drill_Gate_Dribbling}
+
+\clearpage
+\section{Game Situational Practice}
+\textbf{Time: 15 minutes, Started by 6:20PM}
+\input{../Drills/Drill_Endzone_Soccer_Dribble}
+
+%\input{../Drills/Drill_Dribble_Endline_Cross}
+
+%\input{../Drills/Drill_2V1_Offense}
+
+\section{Game}
+
+\begin{oddBlock}{Small Sided}
+    \textbf{Start Time: 6:35 PM}
+    \textbf{Time:} 10 minute halves.
+
+    \textbf{Size:} 4v4 or 5v5.
+
+    Express:
+    \begin{itemize}
+        \setlength{\itemsep}{0pt}
+        \setlength{\parskip}{0pt}
+        \setlength{\parsep}{0pt}
+        \item  remind them about the practice: dribble into open space,
+        \item dribble to pull defenders away from teammates,
+        \item Look to beat a defender and shoot or pass.
+        \item Funnel Positioning.
+        \item Go outside on our defensive half.
+        \item Pass quickly down sidelines or into open space.
+        \item Avoid passing backward.
+        \item Make a pass early or move early.
+    \end{itemize}
+
+\end{oddBlock}
+
+\section{Close}
+\begin{oddBlock}{Sprints}
+    Escelation sprints while dribbling, sprint dribble to 15 yards and back, 30 yards and back, 45 yards and back, then 60 yards and back.
+
+    \vspace{12pt}
+    
+    Slowly dribble around the border of the 19 yard box to cool down.
+
+\end{oddBlock}
+
+\end{document}
