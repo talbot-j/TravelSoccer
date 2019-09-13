@@ -9,5 +9,8 @@
 # Ignore Sublime workspace changes.
 *.sublime-workspace
 
+#ignore pdf files unless they are in the released folder
+*.pdf
+
 #ignore released files
-/Released/
+!/Lessons/Release/*.pdf
