@@ -1,6 +1,13 @@
+#ignore miktex and windows latex build files.
+*.out
+*.synctex.gz
+
 # Ignore Latex Build Files
 *.aux
 *.log
 
 # Ignore Sublime workspace changes.
 *.sublime-workspace
+
+#ignore released files
+/Released/

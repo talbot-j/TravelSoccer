@@ -38,21 +38,19 @@ Starting Topics:
 	Total:
 		14 Outdoor Practices, 29 to 30 practices indoor.
 
-		P01: Intro to Travel U11
-		P02: Perfect Passing
-		P03: Dribbling
-		P04: Defense
-		P05: Focus on the Game
-		P06: Scrimmage
-		P07: Offense
-		P08: Putting it all together
-		
-		P09: Perfect Passing (repeat of P02)
-		P10: Dribbling (repeat of P03)
-		P11: Defense (repeat of P04)
-		P12: Offense (repeat of P07)
-		P13: Focus on the Game (repeat of P05)
-		P14: Scrimmage
+		P01: Intro to Travel U11 				(T 9/11)
+		P02: Perfect Passing  					(S 9/17)
+		P03: Defense 							(T 9/19)
+		P04: Dribbling 							(S 9/21) [no Jim]
+		P05: Focus on the Game 					(T 9/24)
+		P06: Offense 							(S 9/28) [no Jim]  Pass to player on side line, for cross and shoot.
+		P07: Scrimmage (Pool)   				(T 10/1)
+		P08: Defensive Tactics					(S 10/5)  One passing warmup - clocks?, one dribbling warm up? Moving the ball on def half (30 min - x3 10 min progressions) in triangles, pressing and protect (20 min - 10 min cone boundrys, 10 min no with middle boundary )
+		P09: Perfect Passing (repeat of P02)	(T 10/8)
+		P10: Dribbling (repeat of P03)			(S 10/12)
+		P11: Defense (repeat of P04)			(T 10/15)
+		P12: Offense (repeat of P07)			(S 10/19)
+		P13: Scrimmage (Pool)					(T 10/22)
 
 ----------------------------------------------------------------------------------------------------
 Practices - Common:
