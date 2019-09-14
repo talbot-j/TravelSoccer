@@ -9,8 +9,9 @@ PDFS=$(SOURCE:.tex=.pdf)
 	
 all: $(PDFS)
 	@echo "Building: $(PDFS)"
-	cp -r $(PDFS) ../Release/$(PDFS)
-
+	#cp -r $(PDFS) ../Release/$(PDFS)
+	cp -r $(PDFS) ../Release/P3_Iron_Curtain_Defense.pdf
+	
 clean:
 	rm $(PDFS)
 	rm *.aux
